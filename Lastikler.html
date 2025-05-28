@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goodyear</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <link rel="icon" href="images/GT.png">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+        background-image: url(images/kapakFotosu2.jpg);
+        background-repeat: no-repeat;
+        background-size:100%;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #004ea8;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 5%;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      width: 150px;
+    }
+
+    nav a {
+      margin: 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a:hover{
+        text-decoration: underline;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .hero {
+
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+      font-size: 2em;
+      margin-bottom: 440px;
+      margin-top: 160px;
+    }
+
+    section {
+      padding: 40px 5%;
+      background: white;
+      margin: 20px auto;
+      border-radius: 10px;
+      max-width: 1200px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      flex: 1 1 250px;
+      background: #fefefe;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+      .ilet{
+      padding: 10px;
+      border-radius: 10px;
+     background-color: #004ea8;
+      color: white;
+      width: 250px;
+    }
+
+    .ilet:hover{
+      background-color: blue;
+      color: white;
+      transition: 0.25s;
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        justify-content: flex-start;
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 5px 0;
+      }
+
+      .hero {
+			background-image: url('images/kapakFotosu.jpg');
+  	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+        font-size: 1.5em;
+        padding: 60px 10px;
+        margin-bottom: 0px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html"><img src="images/goodyear-logo.png" alt="Goodyear"></a>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="Lastikler.html">Lastikler</a>
+      <a href="Kampanyalar.html">Kampanyalar</a>
+      <a href="Hakkımızda.html">Hakkımızda</a>
+      <a href="BayiBul.html">Bayi Bul</a>
+      <a href="iletisim.html">İletişim</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    PERFORMANSTAN VAZGEÇME
+  </div>
+
+  <section>
+    <h2>Yaz Lastikleri</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/yazLastigi.jpg" alt="">
+        <h3>Eagle F1 Asymmetric 6</h3>
+        <p>En yeni yaz lastiklerimiz Goodyear Eagle F1 Asymmetric 6’ya hazır olun. Üstün direksiyon hakimiyetinden gelişmiş yol tutuşuna kadar sunduğu özelliklerle karşılaşacağınız her türlü koşulun üstesinden gelebilirsiniz.</p>
+        <h4>7.116 TL</h4>
+          <h5>Şu zaman aralığı için beklenen fiyat: Haziran 2025</h5>
+        <a href="BayiBul.html"><button class="ilet">Bayi Bul</button></a>
+      </div>
+      <div class="card">
+        <img src="images/yazLastigi.jpg" alt="">
+        <h3>EfficientGrip Performance 2</h3>
+        <p>EfficientGrip Performance 2, ıslak ve kuru zeminlerde %50 daha fazla kilometre performansı* ve kısa frenleme mesafesi sunar. Olağanüstü kilometre performansı, zorlu yol koşullarından kaynaklanan, daha az sürtünmeyle sonuçlanan yüksek lastik sırtı elastikiyeti sağlayan Mileage Plus Teknolojisinden gelir.</p>
+        <h4>6.806 TL</h4>
+          <h5>Şu zaman aralığı için beklenen fiyat: Haziran 2025</h5>
+        <a href="BayiBul.html"><button class="ilet">Bayi Bul</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kış Lastikleri</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/kisLastigi.jpg" alt="">
+        <h3>UltraGrip Performance 3</h3>
+        <p>Goodyear UltraGrip Performance 3, kış performansına öncelik veren ve çeşitli soğuk hava koşullarında güvenli yol tutuşu ve çekiş gücü sağlayabilecek bir lastik isteyen sürücüler için mükemmel bir seçenektir.</p>
+        <h4>8.410 TL</h4>
+          <h5>Şu zaman aralığı için beklenen fiyat: Kasım 2025</h5>
+        <a href="BayiBul.html"><button class="ilet">Bayi Bul</button></a>
+      </div>
+      <div class="card">
+        <img src="images/kisLastigi.jpg" alt="">
+        <h3>UltraGrip Performance 3</h3>
+        <p>Goodyear UltraGrip Performance 3, kış performansına öncelik veren ve çeşitli soğuk hava koşullarında güvenli yol tutuşu ve çekiş gücü sağlayabilecek bir lastik isteyen sürücüler için mükemmel bir seçenektir.</p>
+        <h4>8.410 TL</h4>
+          <h5>Şu zaman aralığı için beklenen fiyat: Kasım 2025</h5>
+        <a href="BayiBul.html"><button class="ilet">Bayi Bul</button></a>
+      </div>
+    </div>
+  </section>
+
+    <section>
+    <h2>Dört Mevsim Lastikleri</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/dortMevsim.jpg" alt="">
+        <h3>Vector 4 Seasons Gen-2</h3>
+        <p>Yıl boyu tüm hava koşullarında mükemmel sürüş performansı, her zemine uyumlu lastik. Yaz-Kış kullanılabilen bu lastikler sürücüler için mükemmel seçenektir.</p>
+        <h4>9.670 TL</h4>
+          <h5>Şu zaman aralığı için beklenen fiyat: Mayıs 2025</h5>
+        <a href="BayiBul.html"><button class="ilet">Bayi Bul</button></a>
+      </div>
+            <div class="card">
+        <img src="images/dortMevsim.jpg" alt="">
+        <h3>Vector 4 Seasons Gen-2</h3>
+        <p>Yıl boyu tüm hava koşullarında mükemmel sürüş performansı, her zemine uyumlu lastik. Yaz-Kış kullanılabilen bu lastikler sürücüler için mükemmel seçenektir.</p>
+        <h4>9.670 TL</h4>
+          <h5>Şu zaman aralığı için beklenen fiyat: Mayıs 2025</h5>
+        <a href="BayiBul.html"><button class="ilet">Bayi Bul</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+	    <div class="cards">
+      <div class="card">
+        <p>&copy; 2025 Goodyear Web Sitesi - Samet Efe Sarıca</p>
+		<p><i class="fa-brands fa-x-twitter"></i>&nbsp<i class="fa-brands fa-instagram"></i>&nbsp<i class="fa-brands fa-whatsapp"></i>&nbsp<i class="fa-brands fa-telegram"></i></p>
+      </div>
+	  </div>
+  </section>
+
+</body>
+</html>

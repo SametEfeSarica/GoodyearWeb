@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goodyear</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <link rel="icon" href="images/GT.png">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+        background-image: url(images/kapakFotosu2.jpg);
+        background-repeat: no-repeat;
+        background-size:100%;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #004ea8;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 5%;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      width: 150px;
+    }
+
+    nav a {
+      margin: 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a:hover{
+        text-decoration: underline;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .hero {
+
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+      font-size: 2em;
+      margin-bottom: 440px;
+      margin-top: 160px;
+    }
+
+    section {
+      padding: 40px 5%;
+      background: white;
+      margin: 20px auto;
+      border-radius: 10px;
+      max-width: 1200px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      flex: 1 1 250px;
+      background: #fefefe;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    @media screen and (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        justify-content: flex-start;
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 5px 0;
+      }
+
+      .hero {
+			background-image: url('images/kapakFotosu.jpg');
+  	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+        font-size: 1.5em;
+        padding: 60px 10px;
+        margin-bottom: 0px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html"><img src="images/goodyear-logo.png" alt="Goodyear"></a>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="Lastikler.html">Lastikler</a>
+      <a href="Kampanyalar.html">Kampanyalar</a>
+      <a href="Hakkımızda.html">Hakkımızda</a>
+      <a href="BayiBul.html">Bayi Bul</a>
+      <a href="iletisim.html">İletişim</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    PERFORMANSTAN VAZGEÇME
+  </div>
+
+  <section>
+    <h2>Kampanya</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/yazKampanyasi.jpeg" alt="">
+		<h3>Summer is calling</h3>
+        <p>Yaz lastiklerinde geçerli indirimi kaçırmayın. 2 Mayıs - 20 Haziran tarihleri arasında 4 adet yaz lastiği alanlara %20 net indirim</p>
+      </div>
+	    <div class="card">
+        <img src="images/verimlilikKampanyasi.jpeg" alt="">
+		<h3>8 Lastik fiyatına 4 Lastik</h3>
+        <p>%50’ye varan daha uzun kilometre performansı ile Goodyear sizi daha ileriye götürür</p>
+      </div>
+    </div>
+  </section>
+  <section>
+	    <div class="cards">
+      <div class="card">
+        <p>&copy; 2025 Goodyear Web Sitesi - Samet Efe Sarıca</p>
+		<p><i class="fa-brands fa-x-twitter"></i>&nbsp<i class="fa-brands fa-instagram"></i>&nbsp<i class="fa-brands fa-whatsapp"></i>&nbsp<i class="fa-brands fa-telegram"></i></p>
+      </div>
+	  </div>
+  </section>
+  </body>
+  </html>
